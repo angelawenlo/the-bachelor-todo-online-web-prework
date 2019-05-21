@@ -15,8 +15,8 @@ def get_contestant_name(data, occupation)
   data.each do |season, contestants|
     #season = season number
     #contestants = all contestants info
-    
     contestants.each do |contestants_info|
+      #contestants_info = individual contestant info
     binding.pry
     end
   end
