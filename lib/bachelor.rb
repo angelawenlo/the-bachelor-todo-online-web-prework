@@ -7,6 +7,7 @@ def get_first_name_of_season_winner(data, seasons)
       if season == seasons
         winners_name << contestants_info["name"].split(" ")[0]
       end
+      winners_name
     end
   end
 end
