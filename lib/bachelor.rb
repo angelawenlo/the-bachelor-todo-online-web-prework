@@ -33,7 +33,7 @@ def count_contestants_by_hometown(data, hometown)
     #contestants = all contestants info
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
-  while contestants_info["hometown"] == hometown
+  if contestants_info["hometown"] == hometown
       counter = counter + 1
   end
 end
