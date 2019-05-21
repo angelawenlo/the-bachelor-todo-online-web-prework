@@ -66,7 +66,7 @@ def get_average_age_for_season(data, seasons)
       if season == seasons
         age = {
           :season => season,
-          :age => contestants_info["age"]
+          :age => contestants_info["age"].to_i
           }
         binding.pry
       end
