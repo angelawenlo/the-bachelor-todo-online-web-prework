@@ -1,6 +1,7 @@
 def get_first_name_of_season_winner(data, season)
+binding.pry
   # code here
-  binding.pry
+
 end
 
 def get_contestant_name(data, occupation)
