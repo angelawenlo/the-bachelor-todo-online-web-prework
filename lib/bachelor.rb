@@ -35,7 +35,6 @@ def count_contestants_by_hometown(data, hometown)
       #contestants_info = individual contestant info
   if contestants_info["hometown"] == hometown
       counter = counter + 1
-      binding.pry
   end
   counter
 end
