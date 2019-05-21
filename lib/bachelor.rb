@@ -69,7 +69,6 @@ def get_average_age_for_season(data, seasons)
           :age => contestants_info["age"]
           }
         binding.pry
-        return
       end
     end
   end
