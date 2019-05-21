@@ -13,6 +13,9 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
+  data.each do |season, contestants|
+  contestants.each do |contestants_info|
+    binding.pry
 end
 
 #def count_contestants_by_hometown(data, hometown)
