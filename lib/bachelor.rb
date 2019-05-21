@@ -62,6 +62,6 @@ def get_average_age_for_season(data, seasons)
     #contestants = all contestants info
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
-      if season == season
+      if season == seasons
         return contestants_info["occupation"]
 end
