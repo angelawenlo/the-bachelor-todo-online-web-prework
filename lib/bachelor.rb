@@ -28,12 +28,10 @@ def count_contestants_by_hometown(data, hometown)
   # code here
   counter = 0
   hometown.split(", ").each_index do |place, i|
-    binding.pry 
+    binding.pry
 
-  end
-  counter
-end
-end
+
+
 end
 
 #def get_occupation(data, hometown)
