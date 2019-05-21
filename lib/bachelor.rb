@@ -49,7 +49,7 @@ def get_occupation(data, hometown)
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
       if contestants_info["hometown"] == hometown
-        return contestants_info["occupation"].find
+        return contestants_info["occupation"]
       end
     end
   end
