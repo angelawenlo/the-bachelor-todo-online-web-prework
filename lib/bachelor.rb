@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, seasons)
   data.each do |season, contestants|
   contestants.each do |contestants_info|
       if season == seasons
+        binding.pry
         return contestants_info["name"].split(" ")[0]
       end
     end
