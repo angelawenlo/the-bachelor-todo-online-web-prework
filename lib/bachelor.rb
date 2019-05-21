@@ -27,7 +27,6 @@ end
 def count_contestants_by_hometown(data, hometown)
   # code here
   counter = 0
-  hometowns = []
   data.each do |season, contestants|
     #season = season number
     #contestants = all contestants info
