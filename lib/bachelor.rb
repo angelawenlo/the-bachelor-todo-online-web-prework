@@ -27,7 +27,7 @@ end
 def count_contestants_by_hometown(data, hometown)
   # code here
   counter = 0
-  hometown.split(", ").each_index do |place, i|
+  hometown.split(", ").each_index do |i|
     binding.pry
 
 
