@@ -65,6 +65,7 @@ def get_average_age_for_season(data, seasons)
       #contestants_info = individual contestant info
       if season == seasons
       binding.pry
+      end
     end
   end
 end
