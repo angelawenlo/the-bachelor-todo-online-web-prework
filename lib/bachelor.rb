@@ -7,6 +7,7 @@ def get_first_name_of_season_winner(data, seasons)
       binding.pry
       if season == seasons
         contestants_name << contestants_info["name"]
+        contestants_name.split
       end
     end
   end
