@@ -17,6 +17,7 @@ def get_contestant_name(data, occupation)
     #contestants = all contestants info
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
+      if contestants_info["occupation"] == occupation
     binding.pry
     end
   end
