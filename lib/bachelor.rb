@@ -64,5 +64,5 @@ def get_average_age_for_season(data, seasons)
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
       if season == seasons
-        return contestants_info["occupation"]
+      binding.pry
 end
