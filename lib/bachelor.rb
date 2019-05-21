@@ -34,6 +34,8 @@ def count_contestants_by_hometown(data, hometown)
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
       hometowns << contestants_info["hometown"]
+      if hometowns.include?(hometown)
+        counter +=1
     binding.pry
   end
 end
