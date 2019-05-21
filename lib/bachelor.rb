@@ -27,7 +27,12 @@ end
 def count_contestants_by_hometown(data, hometown)
   # code here
   counter = 0
-  hometown.split(", ").each_index do |i|
+  data.each do |season, contestants|
+    #season = season number
+    #contestants = all contestants info
+    contestants.each do |contestants_info|
+      #contestants_info = individual contestant info
+      contestants_info["hometown"]
     binding.pry
 
 
