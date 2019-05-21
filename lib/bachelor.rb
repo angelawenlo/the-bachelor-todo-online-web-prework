@@ -66,7 +66,6 @@ def get_average_age_for_season(data, seasons)
       if season == seasons
         age << contestants_info["age"].to_i
         return age.average
-  
       end
     end
   end
