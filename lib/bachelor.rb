@@ -33,7 +33,7 @@ def count_contestants_by_hometown(data, hometown)
     #contestants = all contestants info
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
-      contestants_info["hometown"]
+      hometowns << contestants_info["hometown"]
     binding.pry
   end
 end
