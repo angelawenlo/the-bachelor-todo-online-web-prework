@@ -34,8 +34,8 @@ def count_contestants_by_hometown(data, hometown)
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
       if contestants_info["hometown"] == hometown
-        contestants_info["hometown"]
         counter +=1
+        contestants_info["hometown"]
       end
     end
   end
