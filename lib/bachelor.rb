@@ -32,14 +32,14 @@ def count_contestants_by_hometown(data, hometown)
     #contestants = all contestants info
     contestants.each do |contestants_info|
       #contestants_info = individual contestant info
-      hometowns << contestants_info["hometown"]
+      if contestants_info["hometown"] == hometown
       if hometowns.include?(hometown)
         counter +=1
-        binding.pry
   end
 end
 end
 end
+counter
 
 #def get_occupation(data, hometown)
   # code here
