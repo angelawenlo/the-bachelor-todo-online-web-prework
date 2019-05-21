@@ -36,7 +36,6 @@ def count_contestants_by_hometown(data, hometown)
       hometowns << contestants_info["hometown"]
       if hometowns.include?(hometown)
         counter +=1
-    binding.pry
   end
 end
 end
