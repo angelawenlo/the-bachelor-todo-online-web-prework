@@ -19,7 +19,6 @@ def get_contestant_name(data, occupation)
       #contestants_info = individual contestant info
       if contestants_info["occupation"] == occupation
         return contestants_info["name"]
-    binding.pry
     end
   end
 end
