@@ -35,8 +35,9 @@ def count_contestants_by_hometown(data, hometown)
       #contestants_info = individual contestant info
       if contestants_info["hometown"] == hometown
         counter +=1
+      end
+    end
 end
-
 #def get_occupation(data, hometown)
   # code here
 #end
