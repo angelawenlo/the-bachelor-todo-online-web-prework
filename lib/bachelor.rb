@@ -34,6 +34,8 @@ def count_contestants_by_hometown(data, hometown)
       #contestants_info = individual contestant info
       contestants_info["hometown"]
     binding.pry
+  end
+end    
 
 
 end
