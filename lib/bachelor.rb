@@ -19,6 +19,7 @@ def get_contestant_name(data, occupation)
       #contestants_info = individual contestant info
       if contestants_info["occupation"] == occupation
         return contestants_info["name"]
+      end
     end
   end
 end
