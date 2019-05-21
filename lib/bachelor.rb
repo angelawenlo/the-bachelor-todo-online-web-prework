@@ -43,7 +43,7 @@ end
 
 def get_occupation(data, hometown)
   # code here
-  ata.each do |season, contestants|
+  data.each do |season, contestants|
     #season = season number
     #contestants = all contestants info
     contestants.each do |contestants_info|
