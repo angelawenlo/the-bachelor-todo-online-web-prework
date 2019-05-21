@@ -41,9 +41,14 @@ counter
 end
 
 
-#def get_occupation(data, hometown)
+def get_occupation(data, hometown)
   # code here
-#end
+  ata.each do |season, contestants|
+    #season = season number
+    #contestants = all contestants info
+    contestants.each do |contestants_info|
+      #contestants_info = individual contestant info
+end
 
 #def get_average_age_for_season(data, season)
   # code here
